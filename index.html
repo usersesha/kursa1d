@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Главная | Шпилевой Александр</title>
+</head>
+<body>
+  <!-- Animated Background Gradients -->
+  <div class="animated-bg">
+    <div class="gradient-blob blob-1"></div>
+    <div class="gradient-blob blob-2"></div>
+    <div class="gradient-blob blob-3"></div>
+  </div>
+
+  <!-- Fixed Navigation -->
+  <nav class="fixed-nav">
+    <div class="nav-container">
+      <div class="nav-logo">
+        <a href="#home">Моё портфолио</a>
+      </div>
+      <ul class="nav-menu">
+        <li><a href="#home" class="nav-link active">Главная</a></li>
+        <li><a href="#about" class="nav-link">Обо мне</a></li>
+        <li><a href="#projects" class="nav-link">Проекты</a></li>
+        <li><a href="#contact" class="nav-link">Контакты</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section with Welcome -->
+  <section id="home" class="hero-section">
+    <div class="hero-background">
+      <img src="images/background_head.avif" alt="Background" class="hero-bg-image">
+    </div>
+    <div class="hero-decorative-elements">
+      <div class="decorative-circle circle-orange"></div>
+      <div class="decorative-circle circle-green"></div>
+      <div class="decorative-circle circle-small"></div>
+    </div>
+    <div class="hero-content">
+      <div class="welcome-text" style="margin-bottom: 30px !important; border-top-width: 100px !important;">
+        <p class="welcome-intro">Добро пожаловать в портфолио <br>веб-разработчика</p>
+        <p class="welcome-description">Здесь вы найдете примеры моих работ, информацию о профессиональном опыте и способах связи. <br>Исследуйте проекты, созданные с вниманием к деталям и фокусом на пользовательский опыт.</p>
+      </div>
+      <h1 class="hero-title">Александр Шпилевой</h1>
+      <p class="hero-subtitle">Веб-разработчик • Наставник • Frontend • UI/UX Design</p>
+      <div class="hero-cta">
+        <a href="projects.html" class="cta-button cta-primary">Смотреть проекты</a>
+        <a href="#contact" class="cta-button cta-secondary">Связаться</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Developer Section -->
+  <section id="about" class="about-section">
+    <div class="container">
+      <div class="about-content">
+        <div class="about-info">
+          <h2 class="section-title">Обо мне</h2>
+          
+          <div class="info-grid">
+            <div class="info-item">
+              <h3 class="info-label">Образование</h3>
+              <p class="info-text">Институт среднего профессионального образования, 
+                <br>Санкт-Петербург, 2018-2021 <br>Специальность: Программирование в компьютерных системах</p>
+            </div>
+            
+            <div class="info-item">
+              <h3 class="info-label">Опыт работы</h3>
+              <p class="info-text">Более 3 лет в веб-разработке, специализация на Frontend и UI/UX дизайне</p>
+            </div>
+            
+            <div class="info-item">
+              <h3 class="info-label">Город</h3>
+              <p class="info-text">Санкт-Петербург, Россия</p>
+            </div>
+            
+            <div class="info-item">
+              <h3 class="info-label">Жизненные ценности</h3>
+              <p class="info-text">Стремление к качеству, постоянное обучение, креативность и внимание к деталям</p>
+            </div>
+          </div>
+
+          <div class="skills-container">
+            <div class="skills-column">
+              <h3 class="skills-title">Hard Skills</h3>
+              <ul class="skills-list">
+                <li>JavaScript, bootstrap</li>
+                <li>Java, C#</li>
+                <li>HTML5, CSS3</li>
+                <li>Adobe Photoshop, Adobe Illustrator</li>
+                <li>After Effects, Premiere Pro</li>
+              </ul>
+            </div>
+            
+            <div class="skills-column">
+              <h3 class="skills-title">Soft Skills</h3>
+              <ul class="skills-list">
+                <li>Адаптивность</li>
+                <li>Решение проблем</li>
+                <li>Коммуникабельность</li>
+                <li>Работа в команде</li>
+                <li>Есть опыт работы с детьми</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        
+        <div class="developer-photo">
+          <img src="images/me.png" alt="Александр Шпилевой" class="photo-image">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+
+  <!-- Projects Preview Section -->
+  <section id="projects" class="projects-preview-section">
+    <div class="container">
+      <h2 class="section-title">Проекты</h2>
+      <div class="projects-preview-grid">
+        <a href="projects.html" class="project-preview-card" data-project-index="0">
+          <div class="project-preview-image" style="background-image: url('proj/softskills/imges/1.png');"></div>
+          <div class="project-preview-info">
+            <h3 class="project-preview-name">SoftSkill Quest</h3>
+            <p class="project-preview-year">2025</p>
+          </div>
+        </a>
+        <a href="projects.html" class="project-preview-card" data-project-index="2">
+          <div class="project-preview-image" style="background-image: url('proj/culture/imges/Главная.png');"></div>
+          <div class="project-preview-info">
+            <h3 class="project-preview-name">Культура_цветения</h3>
+            <p class="project-preview-year">2025</p>
+          </div>
+        </a>
+        <a href="projects.html" class="project-preview-card" data-project-index="3">
+          <div class="project-preview-image" style="background-image: url('proj/dobroed/imges/1.png');"></div>
+          <div class="project-preview-info">
+            <h3 class="project-preview-name">Доброед</h3>
+            <p class="project-preview-year">2025</p>
+          </div>
+        </a>
+        <a href="projects.html" class="project-preview-card" data-project-index="4">
+          <div class="project-preview-image" style="background-image: url('proj/profi/imges/1.png');"></div>
+          <div class="project-preview-info">
+            <h3 class="project-preview-name">Курсы профи</h3>
+            <p class="project-preview-year">2025</p>
+          </div>
+        </a>
+        <a href="projects.html" class="project-preview-card" data-project-index="1">
+          <div class="project-preview-image" style="background-image: url('proj/circus/images/188650817-b5cff38c-9f74-4fc6-acb3-ce82ac750da9.png');"></div>
+          <div class="project-preview-info">
+            <h3 class="project-preview-name">Circus</h3>
+            <p class="project-preview-year">2019</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+ <!-- Contact Section -->
+ <section id="contact" class="contact-section">
+  <div class="container">
+    <h2 class="section-title">Контакты</h2>
+    
+    <div class="contact-content">
+      <div class="contact-buttons">
+        <a href="mailto:shpilevoy@mail.com" class="contact-button">
+          <span>Email</span>
+        </a>
+        <a href="https://github.com" class="contact-button">
+          <span>GitHub</span>
+        </a>
+        <a href="https://linkedin.com" class="contact-button">
+          <span>LinkedIn</span>
+        </a>
+        <a href="https://t.me/shpilevoy" class="contact-button">
+          <span>Telegram</span>
+        </a>
+      </div>
+
+      <form class="contact-form" id="contactForm">
+        <h3 class="form-title">Отправьте заявку на звонок</h3>
+        <div class="form-group">
+          <input type="text" id="name" name="name" placeholder="Ваше имя">
+        </div>
+        <div class="form-group">
+          <input type="email" id="email" name="email" placeholder="Email">
+        </div>
+        <div class="form-group">
+          <textarea id="message" name="message" rows="5" placeholder="Сообщение"></textarea>
+        </div>
+        <button type="submit" class="submit-button"><span>Отправить</span></button>
+      </form>
+    </div>
+  </div>
+</section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Александр Шпилевой. 4-МЗ-6С</p>
+    </div>
+  </footer>
+
+  <!-- Scroll to Top Button -->
+  <button class="scroll-to-top" id="scrollToTop" aria-label="Наверх">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M18 15l-6-6-6 6"/>
+    </svg>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>

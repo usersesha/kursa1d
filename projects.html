@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Fancybox CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Проекты | Шпилевой Александр</title>
+</head>
+<body>
+  <!-- Animated Background Gradients -->
+  <div class="animated-bg">
+    <div class="gradient-blob blob-1"></div>
+    <div class="gradient-blob blob-2"></div>
+    <div class="gradient-blob blob-3"></div>
+  </div>
+
+  <!-- Fixed Navigation -->
+  <nav class="fixed-nav">
+    <div class="nav-container">
+      <div class="nav-logo">
+        <a href="index.html">Моё портфолио</a>
+      </div>
+      <ul class="nav-menu">
+        <li><a href="index.html#home" class="nav-link">Главная</a></li>
+        <li><a href="#about" class="nav-link">Обо мне</a></li>
+        <li><a href="projects.html" class="nav-link active">Проекты</a></li>
+        <li><a href="index.html#contact" class="nav-link">Контакты</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Projects Page -->
+  <section class="projects-page">
+    <div class="project-viewer">
+      <!-- Previous Button -->
+      <a href="#" class="project-navigation prev" id="prevBtn"><span>‹</span></a>
+      
+      <!-- Project Container -->
+      <div class="project-container" id="projectContainer">
+        <!-- Project content will be dynamically loaded here -->
+      </div>
+      
+      <!-- Next Button -->
+      <a href="#" class="project-navigation next" id="nextBtn"><span>›</span></a>
+    </div>
+  </section>
+
+  <!-- Scroll to Top Button -->
+  <button class="scroll-to-top" id="scrollToTop" aria-label="Наверх">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M18 15l-6-6-6 6"/>
+    </svg>
+  </button>
+
+  <!-- Fancybox JS -->
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+  <script src="projects.js"></script>
+</body>
+</html>
