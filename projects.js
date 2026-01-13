@@ -8,11 +8,11 @@ const projects = [
     description: 'Интерактивная веб-платформа для развития soft skills с модульной системой обучения. Проект включает современный дизайн, интуитивный интерфейс и систему отслеживания прогресса. Платформа помогает пользователям развивать коммуникативные навыки, критическое мышление и другие важные компетенции.',
     tech: ['HTML', 'CSS', 'JavaScript', 'Bootstrap'],
     images: [
-      'proj/softskills/imges/1.png',
-      'proj/softskills/imges/2.png',
-      'proj/softskills/imges/3.png',
-      'proj/softskills/imges/4.png',
-      'proj/softskills/imges/5.png'
+      'imges/01.png',
+      'imges/02.png',
+      'imges/03.png',
+      'imges/04.png',
+      'imges/05.png'
     ],
     video: null
   },
@@ -24,12 +24,12 @@ const projects = [
     description: 'Веб-сайт представляет собой учебный проект, разработанный в рамках экзаменационного задания по дисциплине, связанной с основами веб-разработки. <br>Тематика проекта была задана заранее, а весь цикл разработки — от получения задания до сдачи готового результата — был выполнен в ограниченный временной промежуток, составлявший пять часов.',
     tech: ['Figma', 'CSS3', 'HTML5', 'Visio'],
     images: [
-      'proj/circus/images/188650817-b5cff38c-9f74-4fc6-acb3-ce82ac750da9.png',
-      'proj/circus/images/188650839-79455303-182e-45ad-9e1d-466c5f8c1df4.png',
-      'proj/circus/images/188651738-39761dec-9b6b-41ae-8f6f-b78188291771.png',
-      'proj/circus/images/188651755-3a305277-7fa4-48f6-8aa4-cc84504a7001.png',
-      'proj/circus/images/188652222-a7703bd0-3027-42ca-9561-a04397fbb1b6.png',
-      'proj/circus/images/188653127-3eebc59e-b3b4-4655-ba8e-8312bf865dfd.png'
+      '188650817-b5cff38c-9f74-4fc6-acb3-ce82ac750da9.png',
+      '188650839-79455303-182e-45ad-9e1d-466c5f8c1df4.png',
+      '188651738-39761dec-9b6b-41ae-8f6f-b78188291771.png',
+      '188651755-3a305277-7fa4-48f6-8aa4-cc84504a7001.png',
+      '188652222-a7703bd0-3027-42ca-9561-a04397fbb1b6.png',
+      '188653127-3eebc59e-b3b4-4655-ba8e-8312bf865dfd.png'
     ],
     video: null
   },
@@ -41,11 +41,11 @@ const projects = [
     description: 'Проект представляет собой концепт корпоративного сайта для компании, занимающейся озеленением интерьеров и профессиональным уходом за домашними и офисными растениями. <br>В рамках работы была продумана структура сайта, пользовательские сценарии, логика взаимодействия с услугами и визуальная концепция, ориентированная на формирование доверия и демонстрацию экспертизы компании.',
     tech: ['HTML5', 'JavaScript', 'CSS3', 'Bootstrap', 'Figma'],
     images: [
-      'proj/culture/imges/Главная.png',
-      'proj/culture/imges/О нас.png',
-      'proj/culture/imges/Портфолио.png',
-      'proj/culture/imges/Услуги.png',
-      'proj/culture/imges/Контакты.png'
+      'imges/Главная.png',
+      'imges/О нас.png',
+      'imges/Портфолио.png',
+      'imges/Услуги.png',
+      'imges/Контакты.png'
     ],
     video: null
   },
@@ -57,11 +57,11 @@ const projects = [
     description: 'Веб-платформа для пользователей, которые хотят делиться едой и поддерживать благотворительные инициативы. Проект помогает быстро находить доступную еду и отслеживать, кому нужна помощь, делая процесс прозрачным и удобным.',
     tech: ['Photoshop', 'Illustrator', 'UI/UX Design', 'Figma'],
     images: [
-      'proj/dobroed/imges/1.png',
-      'proj/dobroed/imges/2.png',
-      'proj/dobroed/imges/3.png',
-      'proj/dobroed/imges/4.png',
-      'proj/dobroed/imges/5.png'
+      '11.png',
+      '12.png',
+      '13.png',
+      '14.png',
+      '15.png'
     ],
     video: null
   },
@@ -73,12 +73,12 @@ const projects = [
     description: 'Веб-платформа, которая помогает пользователям находить и проходить практические микрокурсы с сопровождением менторов. Проект демонстрирует структуру курсов, пользовательские сценарии и интерфейс оформления услуг, делая процесс обучения прозрачным и удобным.',
     tech: ['JavaScript', 'HTML5', 'CSS3', 'Adobe Animate'],
     images: [
-      'proj/profi/imges/1.png',
-      'proj/profi/imges/2.png',
-      'proj/profi/imges/3.png',
-      'proj/profi/imges/4.png'
+      'imges/1.png',
+      'imges/2.png',
+      'imges/3.png',
+      'imges/4.png'
     ],
-    video: 'proj/profi/promo.mp4'
+    video: null
   }
 ];
 
